@@ -12,12 +12,15 @@ class App extends Component {
     const mySteez2 = {
       "width":"100%",
     }
+    const mySteez3 = {
+      "height":"80%",
+    }
     return (
       <div className="App">
         <p>
             J Griff
           </p>
-        <video src={griff} autoPlay="on" type="video/mp4" style={mySteez2} controls=""></video>
+        <video src={griff} type="video/mp4" style={mySteez3} controls="on"></video>
         
         <a href="https://maxjann.com" class="robo">Jann Software</a>
       </div>
