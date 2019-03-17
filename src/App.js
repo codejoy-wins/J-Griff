@@ -17,7 +17,7 @@ class App extends Component {
         <p>
             J Griff
           </p>
-        <video src={griff} autoPlay="on" type="video/mp4" style={mySteez2}></video>
+        <video src={griff} autoPlay="on" type="video/mp4" style={mySteez2} controls=""></video>
         
         <a href="https://maxjann.com" class="robo">Jann Software</a>
       </div>
